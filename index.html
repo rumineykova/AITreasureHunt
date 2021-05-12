@@ -18,10 +18,15 @@ body, html {
   background-size: cover;
 
 }
-.bgimg-1 {
+/*.bgimg-1 {
   background-image: url("Images/TreasureMapV1.png");
-  height: 100%;
-}
+  max-height: 100%;
+  max-width: 100%;
+   /* Center and scale the image nicely */
+ /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}*/
 
 .caption {
   position: absolute;
@@ -46,23 +51,30 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+
+img {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
 </style>
 </head>
 <body>
 
-  <map name="foodmap">
-  <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" href="croissant.htm">
-</map>
 
-<div class="bgimg-1">
+<!-- <div class="bgimg-1">
   <div class="caption">
 
 
-<!--     <span class="border">FULL PAGE</span><br>
-    <span class="border">BACKGROUND IMAGE</span> -->
+    <span class="border">FULL PAGE</span><br>
+    <span class="border">BACKGROUND IMAGE</span>
   </div>
 </div>
+ -->
 
+<img src="Images/TreasureMapV1.png" width="751" height="569" class="center">
 
 
 
