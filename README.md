@@ -1,1 +1,1 @@
-# AITreasureHunt
+# AITreasureHunt - Research Festival
